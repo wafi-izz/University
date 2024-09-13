@@ -4,14 +4,8 @@ import java.util.Date;
 import java.util.Scanner;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
-//Finally, write a Main class in which we will test our code. In the main method, the following should be done:
-// • Create 4 students and 2 professors using the different constructors.
-// • Test the assignGrade() method with input parameters of your choice.
-// • Put the students in an array and do the same for the professors.
-// • Print the first names and last names of all excellent students.
-// • Print the first name and last name of the student with the highest grade average.
+
 public class University {
     private static Scanner scanner;
     public static void main(String[] args) {
@@ -189,23 +183,3 @@ class Professor {
     }
 
 }
-//Design the Student class.
-// •The attributes are a student ID, a first name, a last name, a date of birth, and a list containing the grades obtained by the student.
-// • Write a constructor for this class that takes all the attributes and another constructor that initializes the grades list as empty,
-//      along with getters and setters for all attributes.
-// • The class will also have the following methods:
-// ▪ calculateGradeAverage(), which calculates the student's grade average.
-// ▪ isExcellent(), which returns true if the student's grade average is greater than or equal to 28.
-//
-//Design the Professor class. • The attributes are an ID, a first name, a last name, and the name of the course taught by the professor.
-// • Write a constructor for this class that takes all the attributes and another constructor without the course taught, along with getters and setters for all attributes.
-// • The class will also have the following method:
-// ▪ assignGrade(Student s, int grade), which adds the grade to the student s grades list if the grade is greater than or equal to 18;
-//      otherwise, it prints a message to inform the student that they have failed.
-//
-//Finally, write a Main class in which we will test our code. In the main method, the following should be done:
-// • Create 4 students and 2 professors using the different constructors.
-// • Test the assignGrade() method with input parameters of your choice.
-// • Put the students in an array and do the same for the professors.
-// • Print the first names and last names of all excellent students.
-// • Print the first name and last name of the student with the highest grade average.
