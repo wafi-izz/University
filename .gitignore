@@ -1,0 +1,12 @@
+# Ignore compiled class files
+*.class
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore output directories
+out/
+
+# Ignore generated JAR files
+*.jar
